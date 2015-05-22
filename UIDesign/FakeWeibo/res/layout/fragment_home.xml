@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FAFAFA"
+        >
+   <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:orientation="horizontal"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:background="#fff"
+           >
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navigationbar_friendsearch"
+                android:layout_gravity="center_vertical"
+                />
+       <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="吃素食的Luffy"
+               android:textColor="#737373"
+               android:textSize="20sp"
+               android:layout_gravity="center_vertical"
+               android:gravity="center"
+               android:layout_weight="1"
+               />
+       <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/navigationbar_icon_radar"
+               android:layout_gravity="center_vertical"
+               />
+
+   </LinearLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F4F1F4"
+            ></View>
+
+
+    <ListView
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:cacheColorHint="#00000000"
+            ></ListView>
+</LinearLayout>

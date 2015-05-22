@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F4F1F4"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="#fff"
+            >
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/market_icon_search_normal"
+                android:layout_gravity="center_vertical"
+                />
+
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:hint="大家都在搜：anglebaby在戛纳"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_find_voice"
+                android:layout_gravity="center_vertical"
+                />
+    </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F4F1F4"
+                ></View>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F1F1F2"
+            >
+
+
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ggbar"
+            android:paddingTop="10dp"
+            android:scaleType="fitXY"
+            />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            >
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="#手品之美#"
+                android:gravity="center"
+                android:textColor="#969696"
+                android:textSize="15sp"
+                android:layout_marginRight="2dp"
+                android:background="#fff"
+                />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="#栀子花开万一体#"
+                android:gravity="center"
+                android:textColor="#969696"
+                android:textSize="15sp"
+                android:background="#fff"
+                />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            >
+
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="#我去上学啦#"
+                android:gravity="center"
+                android:textColor="#969696"
+                android:textSize="15sp"
+                android:background="#fff"
+                android:layout_marginRight="2dp"
+
+
+                />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="热门话题"
+                android:gravity="center"
+                android:textColor="#969696"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            >
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/feedgroup_timeline_icon_edit"
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门微博"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="#969696"
+                />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:background="#fff"
+            android:layout_marginTop="5dp"
+            >
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/feedgroup_timeline_icon_edit"
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="找人"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="#969696"
+                />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 选中效果颜色-->
+    <color name="common_selected_color">#fe6e08</color>
+    <color name="common_unselected_color">#666666</color>
+</resources>

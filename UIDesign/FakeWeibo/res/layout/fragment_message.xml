@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FAFAFA"
+        >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#fff"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息"
+                android:textColor="#282828"
+                android:layout_centerInParent="true"
+                android:textSize="20sp"
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="发起聊天"
+                android:layout_marginTop="7dp"
+                android:textColor="#FFB90F"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EFECED"
+        ></View>
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            >
+
+        <ImageView
+                android:id="@+id/comm_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/messagescenter_comments"
+                />
+
+        <TextView
+                android:layout_toRightOf="@id/comm_img"
+                android:id="@+id/comm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 评论"
+                android:textColor="#AFAFAF"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerInParent="true"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_detail"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                />
+
+    </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EFECED"
+                ></View>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            >
+
+        <ImageView
+                android:id="@+id/cent_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/messagescenter_good"
+                />
+
+        <TextView
+                android:layout_toRightOf="@id/cent_img"
+                android:id="@+id/zan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 赞"
+                android:textColor="#AFAFAF"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerInParent="true"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_detail"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                />
+
+    </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EFECED"
+                ></View>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            >
+
+        <ImageView
+                android:id="@+id/mess_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/messagescenter_at"
+                />
+
+        <TextView
+                android:layout_toRightOf="@id/mess_img"
+                android:id="@+id/my"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" @我的"
+                android:textColor="#AFAFAF"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerInParent="true"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_detail"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                />
+
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EFECED"
+            ></View>
+
+</LinearLayout>
